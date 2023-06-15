@@ -100,7 +100,6 @@ export const GENERAL_COMMANDS = [
   COMMAND_BOT_FORGET,
   COMMAND_SUM_SUM,
   COMMAND_ANALYZE_ANALYZE,
-  //COMMAND_SYS_WRITE,//新加的(error)
 ];
 
 export const ENQUIRE_COMMANDS = ALL_COMMANDS.filter(({ type }) => (
