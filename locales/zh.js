@@ -88,6 +88,10 @@ const zh = {
   __COMMAND_SYS_VERSION_LABEL: '檢查更新',
   __COMMAND_SYS_VERSION_TEXT: '版本',
   __COMMAND_SYS_VERSION_REPLY: (version, isLatest) => `目前版本為 ${version}${isLatest ? '，已更新到最新版本' : ''}。`,
+  __COMMAND_SYS_WRITE_LABEL:'信件種類',//新增加的
+  __COMMAND_SYS_WRITE_TEXT:'寫信',//新增加的
+  __COMMAND_WRITE_INQUIRY_LABEL:'詢問信',//新增加的
+  __COMMAND_WRITE_INQUIRY_TEXT:'請幫我寫一封詢問信',//新增加的
   __COMMAND_TRANSLATE_TO_EN_LABEL: '翻成英文',
   __COMMAND_TRANSLATE_TO_EN_TEXT: '翻成英文',
   __COMMAND_TRANSLATE_TO_EN_PROMPT: '將以下內容翻譯成英文。',
